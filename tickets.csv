@@ -1,0 +1,940 @@
+subject,body,category
+Payment failed,My payment was declined while making a purchase,Billing
+Refund pending,I requested a refund but have not received it,Billing
+Wrong invoice,The amount shown on my invoice is incorrect,Billing
+Double charged,I was charged twice for the same order,Billing
+Payment issue,I am unable to complete my payment,Billing
+Invoice request,Please send me the invoice for my purchase,Billing
+Transaction failed,My transaction failed but money was deducted,Billing
+Subscription payment,My subscription payment is not going through,Billing
+Cannot login,I cannot log in to my account,Technical
+Website error,The website shows an error when I open it,Technical
+Password reset,The password reset link is not working,Technical
+Application crash,The mobile application crashes when I open it,Technical
+System not working,The system is not working properly,Technical
+Page loading,The webpage is stuck and keeps loading,Technical
+Server error,I am getting a server error,Technical
+Account access,I cannot access my account,Technical
+Leave request,I want to apply for annual leave,HR
+Salary question,I have a question about my salary,HR
+Employee details,I need to update my employee information,HR
+Leave balance,Please tell me my remaining leave balance,HR
+Joining date,I need information about my joining date,HR
+HR policy,Where can I find the employee HR policies,HR
+Payslip request,I need a copy of my latest payslip,HR
+Interview status,I want to know the status of my interview,HR
+Product information,I need more information about your product,General
+Business hours,What are your working hours,General
+Contact information,How can I contact your company,General
+Company information,Please provide information about your company,General
+Feedback,I would like to provide feedback about your service,General
+Service details,Can you explain the services you provide,General
+Location information,Where is your office located,General
+Product availability,Is this product currently available,General
+Billing dispute,I want to dispute a charge on my account,Billing
+Card declined,My credit card was declined during checkout,Billing
+Overcharged,I was overcharged for my subscription plan,Billing
+Invoice not received,I have not received my invoice for this month,Billing
+Refund status,What is the status of my refund request,Billing
+Payment method,I want to change my payment method,Billing
+Subscription cancelled,My subscription was cancelled unexpectedly,Billing
+Tax invoice,I need a tax invoice for my purchase,Billing
+Incorrect charge,There is an incorrect charge on my account,Billing
+Bank transfer,How do I pay via bank transfer,Billing
+Credit note,I need a credit note for the returned item,Billing
+Late payment fee,I was charged a late payment fee unfairly,Billing
+Auto renewal,My plan was auto-renewed without my consent,Billing
+Coupon not applied,My coupon code was not applied to the order,Billing
+Partial refund,I only received a partial refund instead of full,Billing
+Failed bank transfer,My bank transfer failed but money was deducted,Billing
+Promo code issue,The promotional code is not working,Billing
+Receipt request,I need a receipt for my recent payment,Billing
+Billing address update,I need to update my billing address,Billing
+GST calculation,The GST amount on my invoice is wrong,Billing
+Annual plan charge,I was charged monthly instead of annually,Billing
+Duplicate invoice,I received two invoices for the same order,Billing
+EMI option,Is there an EMI option available for this product,Billing
+Currency mismatch,I was charged in the wrong currency,Billing
+Wallet balance,My wallet balance is not reflecting correctly,Billing
+Upgrade billing,I upgraded my plan but was charged the old rate,Billing
+Downgrade refund,I downgraded my plan and need a refund of the difference,Billing
+Trial charge,I was charged during my free trial period,Billing
+Invoice format,Can I get my invoice in a different format,Billing
+Payment history,Where can I see my full payment history,Billing
+Billing cycle change,I want to change my billing cycle from monthly to yearly,Billing
+Cashback not received,I did not receive the cashback promised on my purchase,Billing
+Tax exemption,I am a tax-exempt organization and need taxes removed,Billing
+Direct debit issue,My direct debit payment failed this month,Billing
+Subscription upgrade,I want to upgrade my subscription plan,Billing
+Bug report,I found a bug in your application,Technical
+Feature not working,A feature I use regularly is not working,Technical
+App update issue,After the recent update the app stopped working,Technical
+Login loop,I keep getting redirected to the login page,Technical
+Two factor auth,The OTP for two factor authentication is not arriving,Technical
+Slow performance,The application is running very slowly,Technical
+Data not syncing,My data is not syncing across devices,Technical
+Upload failed,I cannot upload files to the platform,Technical
+Download error,I am unable to download the attachment,Technical
+Browser compatibility,The website does not work on my browser,Technical
+Mobile app crash,The mobile app crashes every time I open it,Technical
+API error,I am getting an API error in my integration,Technical
+Notification issue,I am not receiving any notifications,Technical
+Dark mode bug,Dark mode is not working properly in the app,Technical
+Search not working,The search feature is not returning any results,Technical
+Export failed,I cannot export my data to CSV,Technical
+Integration broken,My third party integration has stopped working,Technical
+Email not received,I am not receiving emails from your platform,Technical
+Account locked,My account has been locked and I cannot access it,Technical
+Session timeout,My session keeps timing out very quickly,Technical
+Camera not working,The in-app camera feature is not functioning,Technical
+Map not loading,The map feature is not loading on my device,Technical
+PDF not opening,The PDF viewer is not opening my document,Technical
+Video playback,Videos are not playing in the application,Technical
+QR code scan,The QR code scanner is not working,Technical
+Data loss,My saved data has disappeared after the update,Technical
+Keyboard shortcut,A keyboard shortcut I use has stopped working,Technical
+Font rendering,Text is displaying incorrectly on my screen,Technical
+Import error,I cannot import my data file into the system,Technical
+Dashboard broken,My dashboard is showing blank or broken widgets,Technical
+Print not working,The print function is not working in the application,Technical
+SSL error,I am getting an SSL certificate error on your site,Technical
+Backup failed,My automated backup has failed,Technical
+Settings reset,My application settings keep resetting after logout,Technical
+Push notification,Push notifications are not appearing on my phone,Technical
+Calendar sync,My calendar is not syncing with the application,Technical
+Offline mode,The offline mode is not saving my work correctly,Technical
+Voice input,The voice input feature is not recognizing my speech,Technical
+File corruption,My file appears to be corrupted and cannot be opened,Technical
+Screen freeze,The screen freezes after a few minutes of use,Technical
+Leave encashment,I want to know about the leave encashment policy,HR
+Medical reimbursement,How do I claim medical reimbursement,HR
+Work from home policy,What is the work from home policy of the company,HR
+Transfer request,I want to request a transfer to another department,HR
+Resignation acceptance,Has my resignation been accepted,HR
+Experience letter,I need an experience letter from HR,HR
+Notice period,Can I waive my notice period,HR
+Performance review,When is my performance review scheduled,HR
+Promotion inquiry,I want to inquire about my promotion status,HR
+Training schedule,Where can I find the training schedule,HR
+Overtime payment,I have not been paid for my overtime hours,HR
+Attendance record,My attendance record shows incorrect data,HR
+Emergency contact update,I need to update my emergency contact details,HR
+Maternity leave,What is the maternity leave policy,HR
+Relocation allowance,Will I get a relocation allowance for my transfer,HR
+Dress code policy,What is the company dress code policy,HR
+Health insurance,How do I enroll in the company health insurance,HR
+Tax declaration,I need to submit my tax declaration form,HR
+Appraisal letter,I have not received my appraisal letter,HR
+Confirmation letter,I need my employment confirmation letter,HR
+Gratuity information,How is gratuity calculated at this company,HR
+Team outing,I want to request approval for a team outing,HR
+Referral bonus,When will I receive my employee referral bonus,HR
+Remote work request,I want to request to work remotely,HR
+ID card replacement,I lost my employee ID card and need a replacement,HR
+Paternity leave,What is the paternity leave policy,HR
+Sick leave policy,How many sick leaves am I entitled to per year,HR
+Bonus information,When will the annual bonus be paid,HR
+Exit interview,When will my exit interview be scheduled,HR
+Final settlement,When will I receive my final settlement amount,HR
+Relieving letter,I need a relieving letter from the company,HR
+Company laptop return,How do I return the company laptop after resignation,HR
+Background check,Has my background verification been completed,HR
+Reimbursement claim,How do I submit my expense reimbursement claim,HR
+Probation period,When does my probation period end,HR
+Department change,I have been moved to a new department without notice,HR
+Holiday list,Can you share the official holiday calendar,HR
+Internship certificate,I need an internship completion certificate,HR
+Travel allowance,Am I eligible for travel allowance for office visits,HR
+Shift change,I want to request a change in my work shift timings,HR
+Return policy,What is your return and refund policy,General
+Warranty information,Does the product come with a warranty,General
+Shipping time,How long does shipping usually take,General
+Order tracking,How can I track my order,General
+Product comparison,Can you help me compare two products,General
+Delivery delay,My delivery is delayed beyond the expected date,General
+Package damaged,My package arrived damaged,General
+Wrong item received,I received the wrong item in my order,General
+Bulk order discount,Is there a discount for bulk orders,General
+Support hours,What are your customer support hours,General
+Complaint registration,I want to register a formal complaint,General
+Suggestion,I have a suggestion to improve your service,General
+Newsletter unsubscribe,How do I unsubscribe from your newsletter,General
+Social media,Are you active on social media platforms,General
+Affiliate program,How can I join your affiliate program,General
+Partnership inquiry,I am interested in a business partnership,General
+Careers,Are there any open positions at your company,General
+Press inquiry,I am a journalist and have a press inquiry,General
+Accessibility,Does your website support accessibility features,General
+Language support,Is your service available in other languages,General
+Mobile app availability,Is there a mobile app for your service,General
+Gift card,Do you offer gift cards,General
+Loyalty program,How does your loyalty rewards program work,General
+Terms of service,Where can I find your terms of service,General
+Privacy policy,I have questions about your privacy policy,General
+Missing item,One item is missing from my delivered package,General
+Duplicate order,I accidentally placed the same order twice,General
+Cancel order,I want to cancel my order placed just now,General
+Order confirmation,I did not receive an order confirmation email,General
+Pickup option,Is there an option to pick up my order in store,General
+Free trial,How do I sign up for the free trial,General
+Demo request,I would like to request a product demo,General
+Custom quote,Can I get a custom pricing quote for my team,General
+Review submission,How do I submit a review for a product,General
+User manual,Where can I find the user manual for your product,General
+Chargeback request,I want to initiate a chargeback for an unauthorized transaction,Billing
+Subscription pause,Can I pause my subscription temporarily without losing data,Billing
+Invoice language,I need my invoice in a different language,Billing
+Prepaid balance,How do I top up my prepaid account balance,Billing
+Plan comparison,Can you explain the difference between your pricing plans,Billing
+Store credit,How do I use my store credit on my next purchase,General
+Gift wrapping,Is gift wrapping available for my order,General
+Express delivery,Is express or same day delivery available in my area,General
+Installation help,Can someone help me install the product I purchased,General
+Product registration,How do I register my product for warranty,General
+Payment gateway,I want to know which payment gateways you support,Billing
+Invoice correction,I need to correct the details on my invoice,Billing
+Split payment,Can I split my payment across two cards,Billing
+Account credit,I have an account credit that is not being applied,Billing
+Currency conversion,How does currency conversion work for international payments,Billing
+Subscription renewal,My subscription is about to expire and I want to renew,Billing
+Zero amount invoice,I received an invoice with zero amount which is incorrect,Billing
+Refund timeline,How long does it take for the refund to reflect in my account,Billing
+Bank statement mismatch,The charge on my bank statement does not match the invoice,Billing
+Locked payment,My payment is stuck in a processing state,Billing
+Invoice PDF,I cannot download the PDF version of my invoice,Billing
+Incorrect tax,The tax applied on my order is incorrect,Billing
+Free plan limit,I was charged after exceeding my free plan limit without warning,Billing
+Discount not applied,The discount promised at checkout was not applied,Billing
+Multiple accounts billed,I was billed for two accounts but only use one,Billing
+Refund wrong account,My refund was sent to the wrong bank account,Billing
+Early cancellation fee,I was charged an early cancellation fee that was not disclosed,Billing
+UPI payment failed,My UPI payment failed but the amount was deducted,Billing
+International payment,I am unable to make a payment from my country,Billing
+Payment link expired,The payment link I received has expired,Billing
+Invoice due date,I need to change the due date on my invoice,Billing
+Net banking issue,I cannot complete payment using net banking,Billing
+Refund cancelled,My refund request was cancelled without explanation,Billing
+Billing statement,I need a full billing statement for the past year,Billing
+Card expiry update,I need to update my expired credit card details,Billing
+Apple Pay issue,I cannot pay using Apple Pay on your platform,Billing
+Google Pay issue,My Google Pay payment is not going through,Billing
+Payment confirmation,I did not receive a payment confirmation after paying,Billing
+Charity charge,I see a charity donation charge I did not authorize,Billing
+Plan downgrade,I want to downgrade to a lower plan,Billing
+Two-step verification,I want to enable two-step verification on my account,Technical
+Account deletion,How do I permanently delete my account,Technical
+Username change,I want to change my username in the system,Technical
+Profile picture update,My profile picture is not updating after I change it,Technical
+Data export,How do I export all my data from the platform,Technical
+Email change,I cannot change the email address linked to my account,Technical
+Permission denied,I keep getting a permission denied error,Technical
+Link broken,A link on your website is broken and leads to an error,Technical
+Infinite scroll broken,The infinite scroll on the feed is not loading more content,Technical
+Image not loading,Images are not loading on your website,Technical
+Form submission error,I get an error every time I submit the contact form,Technical
+Chat support offline,The live chat support button is not working,Technical
+Webhook failure,My configured webhook is not receiving any events,Technical
+IP blocked,My IP address seems to be blocked from accessing the service,Technical
+Plugin conflict,A plugin I installed is causing the platform to malfunction,Technical
+Report generation,The report generation is taking too long or failing,Technical
+User role issue,A user in my team does not have the correct permissions,Technical
+Password strength,The system is not accepting my new password,Technical
+Cache issue,I am seeing outdated content even after refreshing,Technical
+Timeout error,I keep getting a timeout error when loading the dashboard,Technical
+Multi-language bug,Content is mixing languages after I changed the language setting,Technical
+Drag and drop broken,The drag and drop feature is not working,Technical
+File size limit,I cannot upload files larger than the allowed size limit,Technical
+Chart not rendering,Charts and graphs are not displaying on my dashboard,Technical
+Copy paste issue,I cannot paste text into the input fields,Technical
+Autofill not working,The autofill feature is not populating my saved details,Technical
+Keyboard not appearing,The keyboard does not appear on the mobile app input fields,Technical
+Geolocation error,The app is showing my location incorrectly,Technical
+Auto-save not working,The auto-save feature is not saving my work,Technical
+Speed issue,The platform is performing very slowly in my region,Technical
+Onboarding process,What is the onboarding process for new employees,HR
+Company car policy,What is the policy for company car usage,HR
+Flexi hours,Does the company offer flexible working hours,HR
+Employee handbook,Where can I find the employee handbook,HR
+Canteen facilities,Is there a canteen or cafeteria available at the office,HR
+Gym allowance,Does the company provide a gym or wellness allowance,HR
+Work anniversary,Will the company acknowledge my work anniversary,HR
+Staff discount,Are there any staff discounts available for employees,HR
+Uniform policy,Does the company provide a uniform or clothing allowance,HR
+Whistleblower policy,How do I report workplace misconduct confidentially,HR
+Jury duty leave,Am I entitled to paid leave for jury duty,HR
+Bereavement leave,What is the bereavement leave policy,HR
+Study leave,Can I take study leave for professional certification,HR
+Volunteer leave,Does the company offer paid volunteer leave,HR
+Employee counseling,Is there an employee counseling or wellness program,HR
+HR grievance,I want to raise a formal grievance with HR,HR
+Job description,Can I get a copy of my official job description,HR
+Contract renewal,I need information about my contract renewal,HR
+Salary revision,When is the next salary revision scheduled,HR
+Stock options,Does the company offer any stock option plan for employees,HR
+Diversity policy,What is the company diversity and inclusion policy,HR
+Anti-harassment policy,Where can I find the anti-harassment policy,HR
+Disciplinary action,I have received a disciplinary notice and need guidance,HR
+Childcare support,Does the company offer any childcare support or allowance,HR
+Insurance claim,How do I file a claim under the company health insurance,HR
+PF withdrawal,How do I apply for provident fund withdrawal,HR
+ESIC registration,I need details about my ESIC registration,HR
+Employee survey,When will the next employee satisfaction survey be conducted,HR
+Office facilities,What office facilities and amenities are available at office,HR
+Domestic violence leave,Is there a leave policy for domestic violence situations,HR
+Size guide,Where can I find the size guide for clothing items,General
+Product recall,Has any product been recalled that I purchased,General
+Environmental policy,What is your company environmental sustainability policy,General
+Product customization,Can I customize the product before ordering,General
+Preorder availability,Can I preorder a product that is not yet released,General
+International shipping,Do you ship internationally,General
+Customs duty,Will I be charged customs duty on my international order,General
+Account closure,How do I close my account permanently,General
+Data deletion,I want all my personal data deleted from your systems,General
+Cookie policy,Can you explain your cookie usage policy,General
+GDPR request,I want to make a GDPR data subject access request,General
+Waitlist,How do I join the waitlist for an out of stock product,General
+Referral code,How do I share my referral code with friends,General
+Community forum,Is there a community forum or user group I can join,General
+Webinar registration,How do I register for your upcoming webinar,General
+App rating,How do I rate and review your mobile app,General
+Third party seller,I bought from a third party seller on your platform and need help,General
+Repair service,Do you offer a repair or maintenance service for your products,General
+Spare parts,Where can I order spare parts for my product,General
+Trade in program,Do you have a trade-in program for old products,General
+Reseller inquiry,I want to become a reseller or distributor for your products,General
+Product launch,When is your next product launch scheduled,General
+Unboxing video,Where can I find an unboxing or tutorial video for your product,General
+Second hand items,Do you sell refurbished or second hand products,General
+Event sponsorship,I want to inquire about event sponsorship from your company,General
+Whitepaper download,Where can I download your whitepapers and case studies,General
+Social responsibility,What social responsibility initiatives does your company run,General
+Age verification,The website is asking for age verification and I cannot proceed,General
+Carbon offset,Does your company offset carbon emissions for deliveries,General
+Donation drive,Is the company running any donation or charity drive,General
+Billing portal access,I cannot log in to the billing portal,Billing
+Prorated charge,Can you explain the prorated charge on my invoice,Billing
+Payment receipt missing,I completed payment but did not get a receipt,Billing
+Subscription transfer,Can I transfer my subscription to another user,Billing
+Auto debit cancel,I want to cancel my auto debit mandate,Billing
+Unused days refund,I cancelled mid-month and want a refund for unused days,Billing
+Invoice VAT,The VAT amount on my invoice seems incorrect,Billing
+Credit card limit,My payment failed because it exceeded my credit card limit,Billing
+Billing email wrong,The billing receipts are going to the wrong email address,Billing
+Late invoice,I received an invoice weeks after the payment due date,Billing
+Loyalty discount,I am a long-term customer and want a loyalty discount,Billing
+Family plan billing,I am being billed separately for a family plan that should be combined,Billing
+Team billing,How do I set up a single invoice for my entire team,Billing
+Reactivation charge,I was charged a reactivation fee without prior notice,Billing
+Offline payment,Can I pay my invoice via cash or cheque,Billing
+Reward points redemption,My reward points are not being applied at checkout,Billing
+Annual receipt,Can I get a single annual payment receipt for tax purposes,Billing
+Overpayment,I accidentally paid more than the invoice amount,Billing
+Subscription not activated,I paid for a subscription but it has not been activated,Billing
+GST number update,I need to add my GST number to the invoice,Billing
+Dark theme issue,The dark theme breaks the layout on certain pages,Technical
+App language reset,The app language keeps reverting to English after I change it,Technical
+Touch ID not working,Touch ID or Face ID is not unlocking the app,Technical
+Shared link broken,A shared link sent by a colleague leads to a 404 error,Technical
+Emoji not displaying,Emojis are not rendering correctly in messages,Technical
+Sort not working,The sort functionality in the table is not working correctly,Technical
+Filter not applying,Filters I apply are not showing the correct results,Technical
+Multiple login sessions,I am being logged out when I log in on another device,Technical
+Desktop app crash,The desktop application crashes on startup,Technical
+Browser extension,Your browser extension is not loading in my browser,Technical
+Screen reader,Your website is not compatible with screen reader software,Technical
+Watermark issue,An unwanted watermark is appearing on my exported files,Technical
+Animation glitch,There is a visual glitch in the animation on the homepage,Technical
+Audio not working,Audio is not playing in the in-app video player,Technical
+Table formatting,Table formatting is broken when I copy content from the app,Technical
+Token expired,I keep getting a token expired error after a few minutes,Technical
+Microphone access,The app is not requesting microphone access correctly,Technical
+Location not updating,My current location is not updating in real time in the app,Technical
+Biometric login,Biometric login stopped working after the latest app update,Technical
+Batch upload error,Batch file uploads are failing after a certain number of files,Technical
+Internship offer letter,I need my internship offer letter from HR,HR
+Long service award,How do I know if I am eligible for a long service award,HR
+Sabbatical leave,Does the company offer sabbatical leave,HR
+Adoption leave,What is the adoption leave policy,HR
+Medical certificate,I need a medical certificate format accepted by the company,HR
+Workplace accident,How do I report a workplace accident or injury,HR
+Training reimbursement,Will the company reimburse my external training costs,HR
+Union membership,How do I contact the employee union,HR
+HR helpdesk,What is the HR helpdesk contact number or email,HR
+Job rotation,I want to request a job rotation opportunity,HR
+Career development,Does the company offer career development programs,HR
+Mentorship program,Is there a mentorship program for junior employees,HR
+Employee recognition,How do I nominate a colleague for an employee award,HR
+Work permit,I need assistance with my work permit or visa documentation,HR
+Conflict resolution,How do I resolve a conflict with my manager,HR
+Pension scheme,What pension or retirement scheme does the company offer,HR
+Team building,I want to organize a team building activity,HR
+Wellness program,What wellness programs are available for employees,HR
+Annual leave carry over,Can I carry forward unused annual leave to next year,HR
+Performance improvement,I have been placed on a PIP and need guidance,HR
+Product bundle,Do you offer any product bundles or combo deals,General
+Student discount,Is there a student discount available,General
+Senior citizen discount,Do you offer discounts for senior citizens,General
+Birthday offer,Do you send any special birthday offers or discounts,General
+Subscription gift,Can I gift a subscription to someone else,General
+Virtual event,Do you host any virtual events or webinars,General
+Knowledge base,Where can I find your knowledge base or help articles,General
+Service outage,Is there a current service outage or maintenance,General
+Status page,Do you have a system status or uptime page,General
+Feedback form,Where can I submit a formal feedback form,General
+Product photo,The product photos on the website do not match what I received,General
+Reorder,How do I quickly reorder a previous purchase,General
+Gift message,Can I add a gift message to my order,General
+Saturday delivery,Do you offer Saturday or weekend delivery,General
+Packaging type,What type of packaging do you use for shipping,General
+COD option,Is cash on delivery available in my area,General
+Order limit,Is there a maximum order quantity per customer,General
+Minimum order,Is there a minimum order value for free shipping,General
+Corporate account,How do I set up a corporate or business account,General
+Loyalty points expiry,When do my loyalty points expire,General
+Payment declined again,My payment was declined for the second time today,Billing
+Subscription locked,My subscription is locked even though I paid,Billing
+Gift subscription,I want to purchase a gift subscription for a friend,Billing
+Payment notification,I am not receiving payment confirmation notifications,Billing
+Invoice sequence,My invoice numbers are not in sequence,Billing
+Billing freeze,My account is frozen due to a billing issue,Billing
+Invoice download,I cannot find where to download past invoices,Billing
+Address mismatch,The billing address on my invoice does not match my records,Billing
+Promotion expired,A promotion was applied to my cart but expired at checkout,Billing
+Recurring charge,I do not understand what a recurring charge on my bill is for,Billing
+Payment split error,My split payment did not process correctly,Billing
+Balance insufficient,My payment failed due to insufficient account balance,Billing
+Billing dispute outcome,What is the outcome of my billing dispute I raised last week,Billing
+Card not saved,My card details are not being saved for future payments,Billing
+Invoice currency,Why is my invoice in a different currency than expected,Billing
+Charge reversal,Has the charge been reversed on my account yet,Billing
+Invoice item missing,One line item is missing from my invoice,Billing
+VAT refund,I am eligible for a VAT refund on my purchase,Billing
+Monthly cap,Is there a spending cap on my monthly subscription,Billing
+Payment delay,My payment was processed late and I was charged a penalty,Billing
+Service charge,What does the service charge on my invoice cover,Billing
+Invoice date wrong,The date on my invoice is incorrect,Billing
+Debit card payment,Can I pay using a debit card instead of a credit card,Billing
+Mobile payment,Is there a mobile payment option like Paytm or PhonePe,Billing
+Installment plan,Can I pay for this product in installments,Billing
+Payment hold,My payment is on hold and I need it released,Billing
+Billing audit,I want an audit of all my billing transactions,Billing
+Declined notification,I did not receive a notification when my payment was declined,Billing
+Price increase,My subscription price increased without any advance notice,Billing
+Trial extension,Can I extend my free trial period,Billing
+Invoice number,I need a specific invoice number for my company records,Billing
+Refund mode,In which mode will my refund be processed,Billing
+One time payment,Can I make a one-time payment without subscribing,Billing
+Payment reversal pending,My payment reversal is pending for more than a week,Billing
+Upgrade cost,How much will it cost to upgrade my current plan,Billing
+Invoice template,Can I customize the invoice template with my company logo,Billing
+Payment expiry,My payment session expired and the order failed,Billing
+Subscription history,Where can I see my full subscription history,Billing
+Tax credit,I am entitled to a tax credit on this purchase,Billing
+Invoice generation,When is my invoice generated each month,Billing
+Partial payment,Can I make a partial payment and pay the rest later,Billing
+Payment method saved,My saved payment method was deleted from my profile,Billing
+Billing support,Can I speak to a billing support agent directly,Billing
+Checkout error,I am getting an error at the checkout payment screen,Billing
+Price match,Can you match a lower price I found on another website,Billing
+Billing notification,I am not receiving any billing notification emails,Billing
+Credit limit increase,Can you increase the credit limit on my account,Billing
+Final invoice,I need a final invoice after cancelling my account,Billing
+Invoice frequency,Can I change how often I receive invoices,Billing
+Payment agreement,I want to set up a payment agreement for an overdue balance,Billing
+Currency lock,Can I lock my billing currency to avoid conversion fees,Billing
+Pricing error,The price shown at checkout is different from what was advertised,Billing
+Grace period,Is there a grace period after my subscription expires,Billing
+Billing department,How do I reach the billing department directly,Billing
+Service tax,What is the service tax rate applied to my invoice,Billing
+Invoice resend,Can you resend my invoice to my email,Billing
+Payment gateway error,I am getting a gateway error during payment,Billing
+Adjustment credit,I see an adjustment credit on my invoice I do not understand,Billing
+Multiple currencies,My team needs multi-currency invoicing for different countries,Billing
+Invoice dispute formal,I want to formally dispute the amount shown on my invoice,Billing
+Free credits missing,I received free credits but they are not appearing on my account,Billing
+Subscription gap,There is a gap in my subscription dates that I was not aware of,Billing
+Overdraft charge,My bank charged me an overdraft fee due to your payment attempt,Billing
+Invoice PO number,Can I add a purchase order number to my invoice,Billing
+Billing discrepancy,There is a discrepancy between what I was quoted and billed,Billing
+VAT number update,I need to add my VAT number to my billing profile,Billing
+Annual billing discount,Is there a discount if I switch to annual billing,Billing
+Invoice sent late,My invoice was sent after the due date,Billing
+Card not accepted,My card type is not accepted on your payment page,Billing
+Points balance,What is my current reward points balance,Billing
+Renewal reminder,I did not receive a renewal reminder before my subscription expired,Billing
+Unpaid invoice alert,I have an unpaid invoice I was not aware of,Billing
+Billing cycle end,When does my current billing cycle end,Billing
+Second payment attempt,Will the system automatically retry a failed payment,Billing
+Cancellation refund,I cancelled my subscription today and want a refund for this month,Billing
+Invoice notes,Can I add custom notes to my invoice for my accountant,Billing
+Admin billing access,I want to give my accountant access to billing details only,Billing
+Payment page crash,The payment page crashes when I try to complete my purchase,Billing
+Downgrade still charged,I downgraded my plan but was still charged the higher amount,Billing
+Coupon expiry,My coupon expired before I could use it,Billing
+Billing profile update,How do I update my billing profile information,Billing
+Invoice frequency change,Can I switch from monthly invoicing to quarterly,Billing
+Subscription auto cancel,Why was my subscription automatically cancelled,Billing
+Payment deadline extension,Can I get an extension on my payment deadline,Billing
+Account suspended billing,My account was suspended due to a billing issue,Billing
+Lifetime deal,Do you offer a lifetime deal or one-time payment option,Billing
+Price lock,Can I lock in my current price when I renew,Billing
+Billing contact change,How do I change the billing contact person on my account,Billing
+Failed payment retry,When will you retry the failed payment on my account,Billing
+Refund processing delay,My refund has been processing for over 10 days,Billing
+Bill shock,My bill this month is significantly higher than usual,Billing
+Coupon combination,Can I use more than one coupon on a single order,Billing
+Referral credit missing,I referred a friend but did not receive my referral credit,Billing
+Payment blocked,My payment is being blocked and I do not know why,Billing
+Invoice export bulk,Can I export all my invoices in a bulk download,Billing
+Balance transfer,Can I transfer the balance from one account to another,Billing
+Tax invoice format,Is your tax invoice format accepted by government portals,Billing
+App freezing,The app freezes when I try to open a specific section,Technical
+Loading spinner stuck,A loading spinner keeps spinning and never completes,Technical
+Redirect loop,I am being caught in a redirect loop on your website,Technical
+White screen,I get a white screen when I open the application,Technical
+Black screen,The app shows a black screen after the splash screen,Technical
+Scroll not working,I cannot scroll the page on mobile devices,Technical
+Fullscreen mode,Fullscreen mode is not working in the video player,Technical
+Notification sound,The notification sound is not playing on my device,Technical
+Badge count wrong,The app badge count on my phone icon is incorrect,Technical
+Widget not loading,The home screen widget is not loading any data,Technical
+Sync error,I get a sync error every time I try to sync my data,Technical
+Multi tab issue,Opening the app in multiple tabs causes errors,Technical
+High CPU usage,Your application is using very high CPU on my computer,Technical
+Battery drain,The app drains my phone battery very quickly,Technical
+Storage full error,The app says my storage is full but I have enough space,Technical
+Bluetooth issue,The app cannot connect to my Bluetooth device,Technical
+Screenshot blocked,The app blocks me from taking screenshots,Technical
+Haptic feedback,Haptic feedback is not working in the mobile app,Technical
+Night mode,Night mode is not changing the app appearance,Technical
+Text zoom,Changing the text size in settings does not take effect,Technical
+Language stuck,I changed the app language but some text is still in the old language,Technical
+Country setting,I cannot change my country setting in my profile,Technical
+PIN setup,I cannot set up a PIN lock for the app on my device,Technical
+Widget configuration,I cannot configure or customize the dashboard widgets,Technical
+Third party login,I cannot log in using my Google or Facebook account,Technical
+Deep link,A deep link in an email is not opening the correct app screen,Technical
+Barcode scanner,The barcode scanner in the app is not reading codes correctly,Technical
+OCR feature,The text recognition feature is not reading text correctly,Technical
+Signature feature,The digital signature feature is not working,Technical
+Captcha issue,The CAPTCHA on your login page is not loading,Technical
+Map zoom,The map zoom controls are not responding to touch,Technical
+Route calculation,The route calculation in your app is showing wrong directions,Technical
+Profile sync,My profile changes are not syncing to the server,Technical
+Contact import,I cannot import my contacts into the application,Technical
+CSV import error,CSV file import is failing with a format error,Technical
+Bulk action,Bulk actions like select all and delete are not working,Technical
+Undo function,The undo function is not reverting my last action,Technical
+History log,The activity history log is not showing recent actions,Technical
+Recycle bin,Items I deleted are not appearing in the recycle bin,Technical
+Archive feature,The archive feature is not moving items correctly,Technical
+Label feature,Labels or tags are not being applied to items correctly,Technical
+Comment section,I cannot post comments in the comment section,Technical
+Mention feature,The mention feature is not notifying the tagged user,Technical
+Reaction feature,Emoji reactions are not being saved on messages,Technical
+Thread reply,I cannot reply to a specific message thread,Technical
+Pin message,The pin message feature is not working in the group chat,Technical
+Media preview,Media files are not previewing inside the chat window,Technical
+File sharing chat,File sharing in the chat is not working,Technical
+Group admin,I cannot assign admin rights to a group member,Technical
+Leave group,I am unable to leave a group in the application,Technical
+Block user,The block user feature is not working correctly,Technical
+Privacy setting reset,My privacy settings keep resetting to default,Technical
+Account merge,I want to merge two accounts but the option is not available,Technical
+Account recovery,I cannot recover my account using the backup codes,Technical
+Security alert unknown,I received a security alert for a login I did not perform,Technical
+Login history,The login history page is not showing accurate information,Technical
+Connected apps,I cannot view or remove connected third-party apps,Technical
+API key generation,I cannot generate a new API key from the dashboard,Technical
+API rate limit,I am hitting the API rate limit too quickly,Technical
+Sandbox mode,The sandbox mode is not working correctly for testing,Technical
+Webhook setup,I cannot set up a webhook for my integration,Technical
+Documentation link,The documentation link in the app leads to a 404 page,Technical
+Error code 500,I am seeing error code 500 and do not know what it means,Technical
+Timeout settings,The session timeout setting is not saving my preference,Technical
+Two device login,I cannot be logged into two devices at the same time,Technical
+Admin panel,The admin panel is not loading correctly for my account,Technical
+Role assignment,I cannot assign a new role to a team member,Technical
+Audit log,The audit log is not capturing all user actions,Technical
+SAML login,SAML single sign-on login is not working,Technical
+SSO configuration,I cannot configure SSO for my organization,Technical
+Domain verification,The domain verification step is failing,Technical
+Email template broken,The email notification template is showing broken formatting,Technical
+Scheduled task,A scheduled task I set up is not running at the right time,Technical
+Data migration,The data migration tool is failing midway,Technical
+Bulk export timeout,The bulk data export is timing out before completion,Technical
+Storage quota,I have exceeded my storage quota but it shows as empty,Technical
+File versioning,Previous versions of my file are not accessible,Technical
+Thumbnail generation,Image thumbnails are not being generated correctly,Technical
+Encoding error,I am getting a character encoding error in text fields,Technical
+Date format,The date format in the app does not match my region settings,Technical
+Time zone wrong,Event times are showing in the wrong time zone,Technical
+Calendar event missing,Calendar events I create are disappearing after a day,Technical
+Reminder not fired,A reminder I set in the app did not go off,Technical
+Autocomplete wrong,The autocomplete is showing outdated or wrong suggestions,Technical
+Spell check,The spell check feature is highlighting correct words as errors,Technical
+Screen reader,Your website is not compatible with screen reader software,Technical
+Watermark issue,An unwanted watermark is appearing on my exported files,Technical
+Animation glitch,There is a visual glitch in the animation on the homepage,Technical
+Audio not working,Audio is not playing in the in-app video player,Technical
+Table formatting,Table formatting is broken when I copy content from the app,Technical
+Token expired,I keep getting a token expired error after a few minutes,Technical
+Microphone access,The app is not requesting microphone access correctly,Technical
+Biometric login,Biometric login stopped working after the latest app update,Technical
+Batch upload error,Batch file uploads are failing after a certain number of files,Technical
+Meeting room booking,How do I book a meeting room in the office,HR
+Parking allocation,I need a parking slot at the office,HR
+Office timing change,My official work hours have been changed without notice,HR
+Resignation letter format,Can you provide a resignation letter template,HR
+Salary slip correction,My salary slip has an error and I need it corrected,HR
+Company loan,Does the company offer salary advance or personal loans,HR
+Provident fund check,How do I check my provident fund balance,HR
+EPFO account link,How do I link my EPFO account to the company,HR
+Nominee update,I want to update my nominee details for insurance,HR
+Job offer letter,I have not received my formal offer letter yet,HR
+Salary account change,I want to change the bank account for my salary,HR
+Increment letter,I have not received my increment letter,HR
+Superannuation,What superannuation benefits does the company provide,HR
+Group insurance,I want details of my group life insurance coverage,HR
+NDA query,I have a question about the non-disclosure agreement I signed,HR
+New employee training,When does the training for new joiners begin,HR
+Outstation work,I will be working from another city and need HR approval,HR
+Weekend work compensation,I worked on a weekend and want to know about compensation,HR
+Holiday work,I worked on a public holiday and need compensation details,HR
+Flexi points,How do I use my flexible benefit points,HR
+Skills assessment,Where do I find the skills assessment form,HR
+Certification support,Will the company support me in getting a professional certification,HR
+Company policy change,A company policy has changed and I need clarification,HR
+Offboarding process,What is the offboarding checklist for resigned employees,HR
+Return to office,When is the return to office policy effective,HR
+Workplace safety,I want to report a workplace safety hazard,HR
+Employee grievance form,Where do I get the employee grievance submission form,HR
+Code of conduct,I need a copy of the company code of conduct,HR
+Ethical reporting,How do I report unethical behavior at work,HR
+Org chart,Where can I find the company organizational chart,HR
+Reporting manager change,My reporting manager has changed and HR has not updated it,HR
+Work from abroad,Can I work from a different country temporarily,HR
+Language training,Does the company offer language or communication training,HR
+Leadership program,Is there a leadership development program I can apply for,HR
+Job posting internal,How do I post an internal job opening in my department,HR
+Rehire policy,Can a former employee be rehired at the company,HR
+Probation extension,My probation period has been extended and I need reasons,HR
+Retirement age,What is the official retirement age at this company,HR
+Early retirement,Can I apply for voluntary early retirement,HR
+Medical test,Is a pre-employment medical test required for my role,HR
+Social media policy,What is the company social media usage policy,HR
+IT asset request,How do I request an IT asset like a laptop or monitor,HR
+Mobile reimbursement,Am I eligible for a mobile phone reimbursement,HR
+Internet allowance,Is there a work from home internet allowance,HR
+Educational allowance,Does the company provide an educational allowance for children,HR
+Fuel allowance,Is there a fuel reimbursement or allowance policy,HR
+Commute allowance,Do I get a commute or transport allowance,HR
+Medical checkup,Does the company arrange annual medical checkups,HR
+Mental health support,Does the company provide mental health support resources,HR
+EAP program,What is the Employee Assistance Program and how do I access it,HR
+Ergonomic equipment,Can I request ergonomic furniture for my home office,HR
+HR portal password,How do I reset my HR portal login password,HR
+Employee ID number,How do I get my employee ID number,HR
+Org restructuring,How will the recent organizational restructuring affect my role,HR
+Exit formalities,What are the exit formalities I need to complete before leaving,HR
+Handover checklist,Is there a handover checklist for exiting employees,HR
+PF nominee update,How do I update my PF nominee details,HR
+Gratuity claim,How do I claim my gratuity after leaving the company,HR
+Form 16,When will my Form 16 be available for this financial year,HR
+Salary certificate,I need a salary certificate for a visa application,HR
+Bank loan letter,I need an employment letter for a bank loan,HR
+Home loan NOC,I need a no-objection certificate for a home loan,HR
+ESOP vesting,When does my next ESOP batch vest,HR
+Bonus structure,How is the performance bonus structure calculated,HR
+Variable pay,What is the variable pay component in my compensation,HR
+CTC breakup,Can I get the full breakup of my CTC,HR
+Notice period buyout,Can the company buy out my notice period,HR
+Moonlighting policy,What is the policy on moonlighting or side employment,HR
+IPR policy,Who owns the intellectual property I create while employed,HR
+Non-compete clause,Can you explain the non-compete clause in my contract,HR
+Severance pay,Am I entitled to severance pay if laid off,HR
+Layoff process,How does the company handle the layoff process,HR
+Compensatory off,How do I apply for compensatory off,HR
+Reporting hierarchy,How do I find my official reporting hierarchy,HR
+Contract type,I want to know if I am on a permanent or contract basis,HR
+HR data correction,My name is misspelled in the HR system and I need it corrected,HR
+Date of birth correction,My date of birth is incorrect in the HR records,HR
+Address update HR,I need to update my home address in the HR system,HR
+Marital status update,I recently got married and need to update my marital status,HR
+Dependent addition,How do I add a dependent to my medical insurance,HR
+HR portal access issue,I cannot log in to the HR self-service portal,HR
+Biometric registration,My biometric registration is pending at the office,HR
+Smart card access,How do I apply for a smart card or access card,HR
+RSU details,Can you provide details of my RSU grant,HR
+Recall from leave,I was recalled from leave and need compensation,HR
+Sabbatical leave,Does the company offer sabbatical leave,HR
+Adoption leave,What is the adoption leave policy,HR
+Long service award,How do I know if I am eligible for a long service award,HR
+Career development,Does the company offer career development programs,HR
+Mentorship program,Is there a mentorship program for junior employees,HR
+Employee recognition,How do I nominate a colleague for an employee award,HR
+Work permit,I need assistance with my work permit or visa documentation,HR
+Conflict resolution,How do I resolve a conflict with my manager,HR
+Pension scheme,What pension or retirement scheme does the company offer,HR
+Wellness program,What wellness programs are available for employees,HR
+Annual leave carry over,Can I carry forward unused annual leave to next year,HR
+Performance improvement plan,I have been placed on a PIP and need guidance,HR
+Delivery instructions,Can I add delivery instructions for my order,General
+Contactless delivery,Is contactless delivery available,General
+Delivery photo proof,Can I get a photo proof of delivery,General
+Parcel locker delivery,Can my order be delivered to a parcel locker,General
+Leave at door,Can you leave my package at the door if I am not home,General
+Delivery rescheduling,Can I reschedule my delivery to a different date,General
+Return pickup,How do I schedule a pickup for my return,General
+Return label,How do I get a return shipping label,General
+Return window,How many days do I have to return a product,General
+Exchange process,What is the process to exchange a product,General
+Authenticity guarantee,How do I know the product is genuine and not a counterfeit,General
+Product dimensions,Where can I find the exact dimensions of this product,General
+Material information,What material is this product made of,General
+Allergen information,Does this product contain any allergens,General
+Certifications,What certifications does this product have,General
+Country of origin,Which country is this product manufactured in,General
+Battery life,What is the expected battery life of this product,General
+Charging time,How long does this device take to fully charge,General
+Compatible accessories,What accessories are compatible with this product,General
+Water resistance,Is this product water resistant or waterproof,General
+Noise level,What is the noise level of this appliance,General
+Energy rating,What is the energy efficiency rating of this product,General
+Product lifespan,What is the expected lifespan of this product,General
+Disposal instructions,How should I dispose of this product responsibly,General
+Recycling program,Do you have a product recycling program,General
+Setup guide,Is there a setup guide or quick start guide available,General
+Video tutorial,Is there a video tutorial for setting up this product,General
+Remote support,Can a technician remotely help me set up the product,General
+On-site support,Do you provide on-site support for product installation,General
+Service center,Where is the nearest authorized service center,General
+Doorstep service,Do you offer doorstep repair service,General
+Extended warranty,Can I purchase extended warranty coverage,General
+Warranty claim,How do I make a warranty claim,General
+Out of warranty repair,Can you repair the product even if it is out of warranty,General
+Spare part cost,How much does a specific spare part cost,General
+Repair time,How long will it take to repair my product,General
+Loan device,Can I get a loan device while mine is being repaired,General
+Repair status,What is the status of my repair order,General
+Product discontinuation,Is this product being discontinued,General
+Software update device,Is there a software or firmware update available for my device,General
+Driver download,Where can I download the driver for this product,General
+Compatibility check,Is this product compatible with my operating system,General
+System requirements,What are the minimum system requirements for this product,General
+Multi-device use,Can I use this product on multiple devices simultaneously,General
+Data transfer,How do I transfer data from my old device to the new one,General
+Factory reset,How do I factory reset this product,General
+Account deactivation,How do I temporarily deactivate my account,General
+Profile visibility,How do I make my profile private,General
+Email preferences,How do I manage my email notification preferences,General
+Push notification settings,How do I turn off push notifications from your app,General
+Two-factor setup,How do I enable two-factor authentication on my account,General
+Account sharing,Can I share my account with a family member,General
+Sub-account,Can I create a sub-account under my main account,General
+Admin access grant,How do I grant admin access to another team member,General
+Usage report,Can I get a usage report for my account,General
+Order history view,Where can I view my complete order history,General
+Wishlist sharing,Can I share my wishlist with friends or family,General
+Notification frequency,Can I reduce how often I receive notifications,General
+Currency preference,How do I change the display currency on the website,General
+Time zone setting,How do I update my time zone in the account settings,General
+Dark mode enable,How do I enable dark mode on the website,General
+High contrast mode,Is a high contrast mode available on your platform,General
+Keyboard navigation,Can your website be fully navigated using a keyboard,General
+Voice commands,Does your app support voice commands,General
+Smart home integration,Is your product compatible with smart home systems like Alexa,General
+Chatbot to human,I want to speak to a human agent instead of the chatbot,General
+Escalation request,I want to escalate my complaint to a senior manager,General
+Support response time,What is your average customer support response time,General
+Support ticket status,What is the status of my previously raised support ticket,General
+Case closed wrongly,My support case was closed but my issue is not resolved,General
+Incorrect resolution,The resolution provided by your team did not fix my issue,General
+Agent behavior report,I want to report inappropriate behavior by a support agent,General
+Callback request,I want to request a callback from your support team,General
+WhatsApp support,Do you offer support via WhatsApp,General
+Toll free number,What is your toll-free customer support number,General
+Priority support,Is priority support available for premium users,General
+SLA query,What is your service level agreement for resolving tickets,General
+Issue still pending,My issue has been pending for more than 7 days,General
+Duplicate ticket,I accidentally raised the same ticket twice,General
+Proof of purchase,I need proof of purchase for an insurance claim,General
+Product safety concern,I have a safety concern about a product I purchased,General
+Product condition,What does the product condition rating mean,General
+Student discount,Is there a student discount available,General
+Birthday offer,Do you send any special birthday offers or discounts,General
+Subscription gift,Can I gift a subscription to someone else,General
+Knowledge base,Where can I find your knowledge base or help articles,General
+Service outage,Is there a current service outage or maintenance happening,General
+Status page,Do you have a system status or uptime page,General
+Reorder,How do I quickly reorder a previous purchase,General
+Gift message,Can I add a gift message to my order,General
+Saturday delivery,Do you offer Saturday or weekend delivery,General
+COD option,Is cash on delivery available in my area,General
+Dark theme crash,The application crashes when I switch to dark theme,Technical
+Floating button,The floating action button is overlapping the content on the screen,Technical
+Tab switching,Switching between tabs in the app causes the content to reload,Technical
+Nearest store,How do I find the nearest store to my location,General
+Order invoice download,How do I download the invoice for my order,General
+Price drop alert,Can I set up an alert for when a product price drops,General
+Newsletter resubscribe,I unsubscribed from the newsletter but want to subscribe again,General
+Size exchange,I received the correct item but need a different size,General
+Urgent payment failure,This is urgent my payment has failed and my order is about to be cancelled,Billing
+Critical billing error,There is a critical error in my invoice and I need it fixed immediately,Billing
+Unable to pay,I am unable to complete my payment and need help as soon as possible,Billing
+Payment blocked urgent,My payment is blocked and I cannot proceed this is an emergency,Billing
+Subscription failed,My subscription renewal has failed and my access is blocked,Billing
+Refund not processed,My refund has failed to process and I need it resolved urgently,Billing
+Account frozen critical,My account is frozen due to a billing issue and it is critical to fix now,Billing
+Unable to download invoice,I am unable to download my invoice and I need it immediately for audit,Billing
+Transaction failed urgent,My transaction failed and the amount is deducted this is urgent,Billing
+Billing portal not working,The billing portal is not working and I cannot access my invoices,Billing
+Login not working urgent,My login is not working and I need access immediately,Technical
+Critical system failure,There is a critical system failure and the application is completely down,Technical
+Unable to upload files,I am unable to upload files and this is blocking my entire workflow,Technical
+App failed after update,The app has failed completely after the latest update this is an emergency,Technical
+Database connection failed,The database connection has failed and all data is inaccessible urgently,Technical
+API blocked,Our API integration is blocked and our service is affected as soon as possible fix needed,Technical
+Two factor auth failed,Two factor authentication has failed and I am unable to log in,Technical
+Payment gateway not working,The payment gateway is not working on our platform this is critical,Technical
+Data sync failed urgent,Data synchronization has failed and we are losing records urgently,Technical
+Server not working,The server is not working and all users are affected this needs immediate attention,Technical
+Leave approval urgent,I need my leave approved immediately as it is an emergency situation,HR
+Salary not credited,My salary has not been credited and it is urgent I need it resolved as soon as possible,HR
+Payslip blocked,I am unable to access my payslip and need it immediately for a loan application,HR
+Critical HR data error,There is a critical error in my HR records and my name is incorrect urgently,HR
+Unable to submit timesheet,I am unable to submit my timesheet and it is blocking my salary processing,HR
+Emergency leave request,I need to apply for emergency leave immediately due to a family crisis,HR
+Offer letter not received,My offer letter has not been received and my joining date is tomorrow this is urgent,HR
+HR portal failed,The HR portal has failed and I cannot access any of my documents this is critical,HR
+PF transfer blocked,My PF transfer is blocked and I need it resolved as soon as possible,HR
+Medical reimbursement urgent,My medical reimbursement claim has failed and I need it cleared immediately,HR
+Order not delivered urgent,My order has not been delivered and it is urgent as it is a gift for today,General
+Unable to track order,I am unable to track my order and the delivery is critical for tomorrow,General
+Return failed,My return request has failed and I need it resolved immediately,General
+Refund blocked,My refund is blocked and has not been processed this is urgent,General
+Account not working,My account is not working and I am unable to place any orders this is critical,General
+Emergency order cancel,I need to cancel my order immediately this is an emergency,General
+Delivery failed,My delivery has failed twice and I need a resolution as soon as possible,General
+Unable to contact support,I am unable to reach your support team and my issue is critical,General
+Coupon not working urgent,The coupon I applied is not working and the offer expires today urgently,General
+Product damaged urgent,I received a critically damaged product and need an immediate replacement,General
+Duplicate charge urgent,I was charged twice and this is urgent please reverse the duplicate charge immediately,Billing
+Card blocked payment,My card is blocked and I am unable to make any payment please help as soon as possible,Billing
+Invoice critical error,The invoice has a critical error showing the wrong amount I need it corrected immediately,Billing
+Refund failed again,My refund has failed for the second time and I need escalation urgently,Billing
+Payment not going through,My payment is not working and I have tried multiple times this is an emergency,Billing
+Subscription access blocked,My subscription is blocked and I am unable to access any features urgently,Billing
+Billing account frozen,My billing account is frozen and I cannot make payments this is critical,Billing
+Auto debit failed urgent,My auto debit has failed and my subscription will be cancelled as soon as possible fix needed,Billing
+Chargeback blocked,My chargeback request is blocked and I am unable to proceed this is urgent,Billing
+Tax invoice critical,I need the tax invoice immediately as my audit submission deadline is today,Billing
+Wallet deducted failed,My wallet was deducted but the payment failed I need a refund urgently,Billing
+Coupon failed checkout,The coupon failed to apply at checkout and I lost the discount please fix immediately,Billing
+Payment reversed wrongly,My payment was reversed without my consent and it is urgent to reinstate it,Billing
+Trial ended wrongly,My trial ended early without notice and access is blocked I need it restored immediately,Billing
+Overpayment urgent,I accidentally overpaid and I need the excess refunded as soon as possible,Billing
+Invoice not generated,My invoice was not generated after payment and I need it immediately for reimbursement,Billing
+Subscription not renewed,My subscription failed to renew and service is blocked please resolve urgently,Billing
+Wrong plan charged,I was charged for the wrong plan and need a refund as soon as possible,Billing
+Credit not applied urgent,My account credit is not being applied and I am unable to pay the correct amount,Billing
+Annual plan not activated,I paid for the annual plan but it failed to activate this is critical please fix now,Billing
+GST invoice urgent,I need a GST invoice immediately for filing my taxes today,Billing
+Billing freeze critical,My billing account is frozen critically and I cannot pay outstanding dues,Billing
+Payment link failed,The payment link sent to me has failed and I am unable to complete payment,Billing
+International card blocked,My international card is blocked on your platform and I need help urgently,Billing
+Recurring payment failed,My recurring payment has failed and my account is at risk of suspension urgently,Billing
+Refund mode blocked,My refund mode is blocked and I am unable to receive my money as soon as possible,Billing
+Late fee urgent,I was charged a late fee unfairly and need it reversed immediately,Billing
+Invoice resend urgent,I have not received my invoice and need it resent immediately for a client meeting,Billing
+EMI payment failed,My EMI payment has failed and I am unable to continue my purchase plan urgently,Billing
+Price locked failed,The locked price I was promised has failed to apply and I am being charged more urgently,Billing
+Application not working,The application is not working at all and I need it restored immediately,Technical
+Critical server down,The server is critically down and none of our users can access the platform,Technical
+Login failed urgent,My login has failed repeatedly and I am unable to access my account this is an emergency,Technical
+Data lost critical,All my data has been lost after an update this is critical I need it recovered immediately,Technical
+Unable to reset password,I am unable to reset my password and I am completely locked out of my account,Technical
+Integration failed urgent,My integration with your API has failed and our entire workflow is blocked urgently,Technical
+App not opening,The app is not opening at all after the update I need a fix as soon as possible,Technical
+Export function failed,The export function has failed and I am unable to get my data this is critical,Technical
+Dashboard not loading,The dashboard is not loading and I am unable to view any of my data urgently,Technical
+Email delivery failed,Automated emails from your system have failed and our customers are blocked urgently,Technical
+Sync completely blocked,Data synchronization is completely blocked and records are not updating this is critical,Technical
+File upload failed urgent,My file upload has failed multiple times and I am unable to submit my documents,Technical
+Account access blocked,My account access is blocked after a security update I need it unlocked immediately,Technical
+Webhook not working,The webhook is not working and our system is unable to receive any events urgently,Technical
+Checkout not working,The checkout process is not working and customers are unable to complete purchases,Technical
+Report generation failed,The report generation has failed and I am unable to get critical business data urgently,Technical
+API authentication failed,API authentication has failed and our integration is completely blocked as soon as possible,Technical
+Two factor blocked,Two factor authentication is blocking me and I am unable to log in this is an emergency,Technical
+Mobile app crashed critical,The mobile app has critically crashed and users are unable to access the service,Technical
+Notification system failed,The notification system has failed and users are not receiving any critical alerts,Technical
+Database query failed,A critical database query has failed and the system is showing errors to all users,Technical
+SSO login blocked,Single sign-on is blocked and our entire team is unable to log in this is urgent,Technical
+Video call not working,The video call feature is not working and it is blocking our client meeting immediately,Technical
+Background sync failed,Background data sync has failed and the app is showing outdated information urgently,Technical
+Session blocked,My session is repeatedly blocked after a few minutes and I am unable to work,Technical
+Print feature failed,The print feature has failed and I am unable to print critical documents immediately,Technical
+Admin blocked,My admin access is blocked after a system update and I am unable to manage users urgently,Technical
+Search not working critical,The search feature is critically not working and users are unable to find anything,Technical
+Map feature blocked,The map feature is blocked and I am unable to use location services as soon as possible,Technical
+Leave blocked urgent,My leave request is blocked in the system and I need it approved immediately,HR
+Salary not paid critical,My salary has not been paid and this is a critical financial emergency,HR
+Unable to access HR system,I am unable to access the HR system and cannot view any of my documents urgently,HR
+Appraisal blocked,My appraisal process is blocked and I am unable to submit my self-review as soon as possible,HR
+Emergency medical leave,I need emergency medical leave approved immediately as I am being hospitalized,HR
+PF withdrawal failed,My PF withdrawal request has failed and I need the funds urgently for an emergency,HR
+Health insurance blocked,My health insurance is blocked and I am unable to get treatment reimbursed urgently,HR
+Resignation not accepted,My resignation is not being accepted in the system and I am unable to proceed critically,HR
+Offer letter failed,My offer letter generation has failed and I am unable to join without it this is urgent,HR
+Payslip not working,The payslip portal is not working and I am unable to download my salary slip urgently,HR
+Attendance system failed,The attendance system has failed and my leaves are being marked incorrectly urgently,HR
+Reimbursement blocked,My expense reimbursement is blocked in approval and I need it cleared immediately,HR
+Unable to apply leave,I am unable to apply for leave in the system and my travel is tomorrow this is urgent,HR
+Background check blocked,My background check is blocked and I am unable to start my new role urgently,HR
+Contract renewal failed,My contract renewal has failed in the system and I need it resolved as soon as possible,HR
+HR grievance blocked,My grievance submission is blocked and I am unable to report my issue this is critical,HR
+Salary revision failed,My salary revision has failed to reflect in the system and I need it fixed immediately,HR
+Increment not processed,My increment has not been processed and it is urgent as it was due last month,HR
+Form 16 not generated,My Form 16 is not generated and I am unable to file my taxes this is an emergency,HR
+Insurance claim failed,My insurance claim has failed and I need it resolved immediately for my hospital bill,HR
+Training blocked,My mandatory training access is blocked and I need it completed urgently,HR
+Job posting failed,My internal job posting has failed to publish and I need it live as soon as possible,HR
+Employee ID blocked,My employee ID is blocked and I am unable to enter the office this is critical,HR
+Salary account failed,My salary bank account update has failed and salary may go to the wrong account urgently,HR
+Exit formalities blocked,My exit formalities are blocked in the system and I am unable to complete my last day,HR
+Work permit urgent,My work permit is expiring and I need HR to process the renewal immediately,HR
+Probation clearance failed,My probation clearance has failed to process and I am unable to get confirmed urgently,HR
+Transfer blocked,My department transfer is blocked in the system and I need it resolved as soon as possible,HR
+Medical certificate blocked,My medical certificate submission is blocked and I am unable to get leave approved urgently,HR
+Bonus not credited urgent,My bonus has not been credited and it is urgent as it was promised for this month,HR
+Order completely blocked,My order is completely blocked and I am unable to check out this is urgent,General
+Delivery emergency,My delivery is an emergency gift and it has not arrived please resolve immediately,General
+Return request failed,My return request has failed and I am unable to send the item back urgently,General
+Unable to log in account,I am unable to log in to my account and cannot access my orders this is critical,General
+Refund not working,My refund is not working and I have been waiting for over two weeks as soon as possible,General
+Product not working urgent,The product I received is not working at all and I need a replacement immediately,General
+Support not responding,Your support team is not responding and my issue is critical please escalate urgently,General
+Order cancelled wrongly,My order was cancelled without my consent and I need it reinstated immediately,General
+Subscription gift failed,The subscription gift I purchased has failed to activate for my friend urgently,General
+Exchange blocked,My exchange request is blocked and I am unable to get a replacement urgently,General
+Warranty claim failed,My warranty claim has failed and I am unable to get my product repaired urgently,General
+Account blocked urgent,My account is blocked and I am unable to place any orders this is an emergency,General
+Delivery address failed,The delivery address update has failed and my package may go to the wrong place urgently,General
+COD order blocked,My cash on delivery order is blocked and I am unable to complete the purchase urgently,General
+Pickup not scheduled,My return pickup has not been scheduled and I am unable to return the product urgently,General
+Price error critical,There is a critical price error on your website and I was overcharged immediately fix needed,General
+Product missing urgent,My product is missing from the delivered package and I need a resolution immediately,General
+Cancellation failed,My order cancellation has failed and the payment is still being processed urgently,General
+Loyalty points blocked,My loyalty points are blocked and I am unable to redeem them for my purchase urgently,General
+Wishlist not working,My wishlist is not working and I am unable to save or share products urgently,General
+Gift card not working,My gift card is not working at checkout and I am unable to complete my purchase,General
+Newsletter opt out failed,My newsletter opt-out has failed and I am still receiving emails as soon as possible fix needed,General
+Product review blocked,I am unable to submit my product review and my feedback is critical for the seller,General
+Tracking not working,The order tracking is not working and I am unable to find my package this is urgent,General
+Size exchange failed,My size exchange request has failed and I need the correct size immediately,General
+Address not updating,My delivery address is not updating and the package may go to wrong location urgently,General
+Promo code blocked,My promo code is blocked at checkout and I am unable to use it before it expires,General
+Complaint not registered,My formal complaint failed to register and my issue is critical please resolve urgently,General
+App purchase failed,My in-app purchase has failed but my card was charged I need a refund immediately,General
+VIP support blocked,My VIP support access is blocked and I am unable to get priority help urgently,General
